@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import {
    DELETE_EVENT,
    ADD_OPERATION_LOG,
-   DELETE_ALL_OPERATION_LOGS,
 } from '../actions';
 import AppContext from '../contexts/AppContext';
 import { timeCurrentIso8601 } from '../utils';
